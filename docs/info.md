@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+It takes a 4-bit binary input (BCD) and translates it into seven output signals. Each signal turns on a specific LED segment on the display to form numbers from 0 to 9.
 
 ## How to test
 
-Explain how to use your project
+To test it, apply different 4-bit binary combinations using switches or jumpers and check if the display shows the matching number from 0 to 9.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The external hardware consists of switches for the 4-bit binary input, current-limiting resistors, a 5V power supply, and the 8-segment LED display.
